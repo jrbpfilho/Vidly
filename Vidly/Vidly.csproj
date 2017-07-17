@@ -222,9 +222,30 @@
     <Compile Include="Migrations\201707162235217_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>201707162235217_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201707170017181_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\201707170017181_AddNameToMembershipType.Designer.cs">
+      <DependentUpon>201707170017181_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201707170018398_SetNameOfMembershipTypes.cs" />
+    <Compile Include="Migrations\201707170018398_SetNameOfMembershipTypes.Designer.cs">
+      <DependentUpon>201707170018398_SetNameOfMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201707170039598_UpdateCustomerWithBirthDate.cs" />
+    <Compile Include="Migrations\201707170039598_UpdateCustomerWithBirthDate.Designer.cs">
+      <DependentUpon>201707170039598_UpdateCustomerWithBirthDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201707170056355_AddGenreandMoviesUpdate.cs" />
+    <Compile Include="Migrations\201707170056355_AddGenreandMoviesUpdate.Designer.cs">
+      <DependentUpon>201707170056355_AddGenreandMoviesUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201707170115022_Genres.cs" />
+    <Compile Include="Migrations\201707170115022_Genres.Designer.cs">
+      <DependentUpon>201707170115022_Genres.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -251,6 +272,7 @@
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Movies\Random.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />
@@ -348,6 +370,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201707162235217_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>201707162235217_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707170017181_AddNameToMembershipType.resx">
+      <DependentUpon>201707170017181_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707170018398_SetNameOfMembershipTypes.resx">
+      <DependentUpon>201707170018398_SetNameOfMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707170039598_UpdateCustomerWithBirthDate.resx">
+      <DependentUpon>201707170039598_UpdateCustomerWithBirthDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707170056355_AddGenreandMoviesUpdate.resx">
+      <DependentUpon>201707170056355_AddGenreandMoviesUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707170115022_Genres.resx">
+      <DependentUpon>201707170115022_Genres.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
