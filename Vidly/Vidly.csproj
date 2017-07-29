@@ -250,6 +250,10 @@
     <Compile Include="Migrations\201707250137439_Error2.Designer.cs">
       <DependentUpon>201707250137439_Error2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201707270532396_Validation.cs" />
+    <Compile Include="Migrations\201707270532396_Validation.Designer.cs">
+      <DependentUpon>201707270532396_Validation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -259,6 +263,7 @@
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Min18YearsIfAMember.cs" />
     <Compile Include="Models\Movie.cs" />
+    <Compile Include="Models\NumberInStockValidation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\MovieFormViewModel.cs" />
@@ -404,6 +409,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201707250137439_Error2.resx">
       <DependentUpon>201707250137439_Error2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707270532396_Validation.resx">
+      <DependentUpon>201707270532396_Validation.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
